@@ -1,0 +1,16 @@
+# Backend
+bin/
+obj/
+Uploads/
+
+# Frontend
+node_modules/
+dist/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Environment files
+.env
