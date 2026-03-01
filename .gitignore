@@ -1,16 +1,22 @@
-# Backend
-bin/
-obj/
-Uploads/
-
-# Frontend
-node_modules/
-dist/
-
 # Visual Studio
 .vs/
 *.user
 *.suo
 
-# Environment files
-.env
+
+# .NET
+bin/
+obj/
+
+
+# Uploads (very important - don't upload user documents)
+VerificationApi/Uploads/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
